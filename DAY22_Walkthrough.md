@@ -1,4 +1,4 @@
-#Day 22:
+# Day 22:
 
 - McSkidy has finally gotten around to identifying the first trace of Grinch Enterprises within their network. They're looking at local machines to determine what exactly they did when they first entered the network. Can you help them make sense of what happened?
 
@@ -12,7 +12,7 @@ and run the command: `oledump.py Santa_claus_Naughty-List_2021.doc`
 I find 17 streams
 
 - then I run this command : `oledump.py -s 8 -d Santa_claus_Naughty-List_2021.doc`
-The stream 8 contains the obfuscated script which I decod with  (CyberChef)[https://gchq.github.io/CyberChef/]
+The stream 8 contains the obfuscated script which I decod with  [CyberChef](https://gchq.github.io/CyberChef/)
 `FROM BASE64 + XOR with key 35 and Decimal + FROM BASE64`
 
 - Then now you can answer the questions 1-2-3-4 from this clearText
